@@ -17,33 +17,33 @@
                     </div>
 
                     <!-- Featured Post Slides -->
-                    <div class="featured-post-slides owl-carousel mb-30">
-                        {% for i in news %}
+<!--                    <div class="featured-post-slides owl-carousel mb-30">-->
+<!--                        {% for i in news %}-->
 
-                        <!-- Single Feature Post -->
-                        <div class="single-feature-post video-post bg-img"
-                             style="background-image: url({% if i.featured_image %} {{i.featured_image.url}} {% endif %});">
-                            <!-- Play Button -->
-                            <a href="/video/video-detail/{{i.id}}/" class="btn play-btn">
-                                <i class="fa fa-play" aria-hidden="true"></i>
-                            </a>
+<!--                        &lt;!&ndash; Single Feature Post &ndash;&gt;-->
+<!--                        <div class="single-feature-post video-post bg-img"-->
+<!--                             style="background-image: url({% if i.featured_image %} {{i.featured_image.url}} {% endif %});">-->
+<!--                            &lt;!&ndash; Play Button &ndash;&gt;-->
+<!--                            <a href="/video/video-detail/{{i.id}}/" class="btn play-btn">-->
+<!--                                <i class="fa fa-play" aria-hidden="true"></i>-->
+<!--                            </a>-->
 
-                            <!-- Post Content -->
-                            <div class="post-content">
-                                <a href="#" class="post-cata">{{i.category}}</a>
-                                <a href="/video/video-detail/{{i.id}}/" class="post-title">{{i.title}}</a>
-                                <div class="post-meta d-flex">
-                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>
-                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>
-                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>
-                                </div>
-                            </div>
+<!--                            &lt;!&ndash; Post Content &ndash;&gt;-->
+<!--                            <div class="post-content">-->
+<!--                                <a href="#" class="post-cata">{{i.category}}</a>-->
+<!--                                <a href="/video/video-detail/{{i.id}}/" class="post-title">{{i.title}}</a>-->
+<!--                                <div class="post-meta d-flex">-->
+<!--                                    <a href="#"><i class="fa fa-comments-o" aria-hidden="true"></i> 25</a>-->
+<!--                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 25</a>-->
+<!--                                    <a href="#"><i class="fa fa-thumbs-o-up" aria-hidden="true"></i> 25</a>-->
+<!--                                </div>-->
+<!--                            </div>-->
 
-                            <!-- Video Duration -->
-                            <!--                            <span class="video-duration">05.03</span>-->
-                        </div>
-                        {% endfor %}
-                    </div>
+<!--                            &lt;!&ndash; Video Duration &ndash;&gt;-->
+<!--                            &lt;!&ndash;                            <span class="video-duration">05.03</span>&ndash;&gt;-->
+<!--                        </div>-->
+<!--                        {% endfor %}-->
+<!--                    </div>-->
 
                     <div class="row">
                         {% for i in news %}
